@@ -1,11 +1,11 @@
 import { GlobalStyled } from "globalstyled";
-import SideBar from "pages/sideBar";
+import { HomePage } from "pages/home";
 import { Outlet } from "react-router";
 
 export const Layout = () => {
     return (
         <div>
-            <SideBar />
+            <HomePage/>
             <GlobalStyled/>
             <Outlet/>
       </div>

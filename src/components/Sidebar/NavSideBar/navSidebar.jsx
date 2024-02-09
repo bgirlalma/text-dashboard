@@ -6,7 +6,7 @@ import { ProductSvg } from 'image/product';
 import { PromoteSvg } from 'image/promote';
 import { VectorRightSvg } from 'image/vector-right';
 
-import { WrappList, StyledList, StyledNavLink } from './navSideBar.styled';
+import { WrappList, StyledList, StyledTitle,StyledLinkSvg, StyledNavLink } from './navSideBar.styled';
 
 const NavSideBar = () => {
   return (
@@ -15,43 +15,53 @@ const NavSideBar = () => {
         <StyledList>
           <StyledNavLink to="/">
             <DashboardSvg />
-            Dashboard
+            <StyledTitle>Dashboard</StyledTitle>
           </StyledNavLink>
         </StyledList>
         <StyledList>
           <StyledNavLink to="/product">
             <ProductSvg />
-            Product
-            <VectorRightSvg />
+            <StyledTitle>Product</StyledTitle>
           </StyledNavLink>
+          <StyledLinkSvg>
+            <VectorRightSvg />
+          </StyledLinkSvg>
         </StyledList>
         <StyledList>
           <StyledNavLink to="/customers">
             <CustomersSvg />
-            Customers
-            <VectorRightSvg />
+            <StyledTitle>Customers</StyledTitle>
           </StyledNavLink>
+          <StyledLinkSvg>
+            <VectorRightSvg />
+          </StyledLinkSvg>
         </StyledList>
         <StyledList>
           <StyledNavLink to="/income">
             <IncomeSvg />
-            Income
-            <VectorRightSvg/>
+            <StyledTitle>Income</StyledTitle>
           </StyledNavLink>
+          <StyledLinkSvg>
+            <VectorRightSvg />
+          </StyledLinkSvg>
         </StyledList>
         <StyledList>
           <StyledNavLink to="/promote">
             <PromoteSvg />
-            Promote
-            <VectorRightSvg/>
+            <StyledTitle>Promote</StyledTitle>
           </StyledNavLink>
+          <StyledLinkSvg>
+            <VectorRightSvg />
+          </StyledLinkSvg>
         </StyledList>
         <StyledList>
           <StyledNavLink to="/help">
             <HelpSvg />
-            Help
-            <VectorRightSvg/>
+            <StyledTitle>Help</StyledTitle>
           </StyledNavLink>
+          <StyledLinkSvg>
+            <VectorRightSvg />
+          </StyledLinkSvg>
         </StyledList>
       </WrappList>
     </nav>

@@ -1,7 +1,14 @@
 p{
   font-family: 'Poppins';
   font-weight: 'SemiBold';
+  grid-template-columns: 306px 1fr;
   font-size: 26px;
   padding-left: 39px;
   padding-right: 36px;
+  justify-items: end;
+  justify-content: end;
+  position: relative;
+  position: absolute;
+  background-color: #EAABF0;
+  transform: translate(-50%);
 }

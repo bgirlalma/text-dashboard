@@ -1,16 +1,27 @@
 import { VectorDownSvg } from "image/vector-down";
 import Avatar from '../../../image/main-avatar.jpg'
+import {
+  WrappContainer,
+  StyledContainer,
+  StyledTitle,
+  StyledDesc,
+  ContainerSvgWrapp,
+} from './projectManadger.styled';
 
 const ProjectManager = () => {
     return (
-      <div>
+      <WrappContainer>
         <img src={Avatar} alt="Project Manager" />
 
-        <h2 className="title-avatar">Evano</h2>
-            <p className="desc-avatar">Project Manager</p>
-            
-            <VectorDownSvg/>
-      </div>
+        <StyledContainer>
+          <StyledTitle className="title-avatar">Evano</StyledTitle>
+          <StyledDesc className="desc-avatar">Project Manager</StyledDesc>
+        </StyledContainer>
+
+        <ContainerSvgWrapp>
+          <VectorDownSvg />
+        </ContainerSvgWrapp>
+      </WrappContainer>
     );
 }
 
