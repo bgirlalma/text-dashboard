@@ -1,9 +1,16 @@
+import { Route, Routes } from "react-router";
+import { Layout } from "./Layout";
+import DashboardPage from "pages/dashboard";
+
 export const App = () => {
   return (
     <div
-  
     >
-      React homework template
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<DashboardPage/> }></Route>
+        </Route>
+      </Routes>
     </div>
   );
 };
