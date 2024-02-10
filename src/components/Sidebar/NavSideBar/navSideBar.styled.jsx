@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export const WrappList = styled.ul`
   width: 231px;
+  height: 100%;
   margin: 65px 16px 0 19px;
 `;
 
