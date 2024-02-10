@@ -8,48 +8,70 @@ import ElipseTree from '../../image/Ellipse 60.jpg';
 import ElipseFour from '../../image/Ellipse 61.jpg';
 import ElipseFive from '../../image/Ellipse 62.jpg';
 import { RedArrowSvg } from 'image/red-arrow';
-import { FlexContainer, FlexList } from './active.styled';
+import {
+  FlexContainer,
+  FlexList,
+  StyledContentContainer,
+  Title,
+  Desc,
+  StyledDesc,
+  StyledPercent,
+  List,
+  StyledImg,
+  StyledIcon,
+} from './active.styled';
 const ActiveComponent = () => {
-    return (
-      <FlexContainer>
-        <FlexList>
-          <li>
-            <img
-              src={TotalCustomers}
-              alt="Total Customers"
-              width="84"
-              height="84"
-            />
-            <h2>Total Customers</h2>
-            <p>5,423</p>
+  return (
+    <FlexContainer>
+      <FlexList>
+        <List>
+          <StyledImg
+            src={TotalCustomers}
+            alt="Total Customers"
+            width="84"
+            height="84"
+          />
+          <StyledContentContainer>
+            <Title>Total Customers</Title>
+            <Desc>5,423</Desc>
 
-            <p>
+            <StyledDesc>
               <ArrowSvg />
-              <span>16%</span>this month
-            </p>
-          </li>
-          <li>
-            <img src={ProfileTick} alt="Profile Tick" width="84" height="84" />
-            <h2>Members</h2>
-            <p>1,893</p>
-            <p>
+              <StyledPercent>16%</StyledPercent>this month
+            </StyledDesc>
+          </StyledContentContainer>
+        </List>
+        <List>
+          <StyledImg
+            src={ProfileTick}
+            alt="Profile Tick"
+            width="84"
+            height="84"
+          />
+          <StyledContentContainer>
+            <Title>Members</Title>
+            <Desc>1,893</Desc>
+            <StyledDesc>
               <RedArrowSvg />
-              <span>1%</span> this month
-            </p>
-          </li>
-          <li>
-            <img src={MonitorSvg} alt="Active" />
-                    <h2>Active Now</h2>
-                    <p>189</p>
-                    <img src={ElipseOne} alt="avatar one" />
-                    <img src={ElipseTwo} alt="avatar two" />
-                    <img src={ElipseTree} alt="avatar three" />
-                    <img src={ElipseFour} alt="avatar four" />
-                    <img src={ElipseFive} alt="avatar five" />
-          </li>
-        </FlexList>
-      </FlexContainer>
-    );
-}
+              <StyledPercent>1%</StyledPercent> this month
+            </StyledDesc>
+          </StyledContentContainer>
+        </List>
+        <List>
+          <StyledImg src={MonitorSvg} alt="Active" width="84" height="84" />
+          <StyledContentContainer>
+            <Title>Active Now</Title>
+            <Desc>189</Desc>
+            <StyledIcon src={ElipseOne} alt="avatar one" />
+            <StyledIcon src={ElipseTwo} alt="avatar two" />
+            <StyledIcon src={ElipseTree} alt="avatar three" />
+            <StyledIcon src={ElipseFour} alt="avatar four" />
+            <StyledIcon src={ElipseFive} alt="avatar five" />
+          </StyledContentContainer>
+        </List>
+      </FlexList>
+    </FlexContainer>
+  );
+};
 
 export default ActiveComponent;
