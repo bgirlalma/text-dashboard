@@ -1,16 +1,18 @@
 import { SearchSvg } from "image/search";
-import { WrappContainer, HeaderTitle, HeaderInput, HeaderWrapp } from "./header.styled";
+import { WrappContainer, HeaderTitle, FlexContainer, HeaderInput, HeaderWrapp } from "./header.styled";
 
 const Header = () => {
     return (
       <WrappContainer>
         <HeaderTitle>Hello Evano 👋🏼,</HeaderTitle>
 
-        <HeaderInput type="text" />
+        <FlexContainer>
+          <HeaderInput type="text" placeholder="Search" />
 
-        <HeaderWrapp>
-          <SearchSvg />
-        </HeaderWrapp>
+          <HeaderWrapp>
+            <SearchSvg />
+          </HeaderWrapp>
+        </FlexContainer>
       </WrappContainer>
     );
 }

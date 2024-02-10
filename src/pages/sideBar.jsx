@@ -7,7 +7,9 @@ const {
 } = require('components/Sidebar/NavSideBar/navSidebar');
 
 const Container = styled.div`
-  position: fixed;
+  top: 0;
+  left: 0;
+  width: 306px;
   height: 100%;
   background-color: #fff;
   padding-left: 28px;

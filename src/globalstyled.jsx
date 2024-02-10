@@ -8,7 +8,7 @@ body {
       'Ubuntu', 'Cantarell','Poppins' 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Pathway Gothic One', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #B5B7C0;
+    background-color: #F9FBFF;
   }
   
   code {
