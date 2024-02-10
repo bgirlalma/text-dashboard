@@ -1,0 +1,163 @@
+[
+   {
+     "customerName": "Jane Cooper",
+     "company": "Microsoft",
+     "phoneNumber": "(225) 555-0118",
+     "email": "jane@microsoft.com",
+     "country": "United States",
+     "status": "Active"
+   },
+   {
+     "customerName": "Floyd Miles",
+     "company": "Yahoo",
+     "phoneNumber": "(205) 555-0100",
+     "email": "floyd@yahoo.com",
+     "country": "Kiribati",
+     "status": "Inactive"
+   },
+   {
+     "customerName": "Ronald Richards",
+     "company": "Adobe",
+     "phoneNumber": "(302) 555-0107",
+     "email": "ronald@adobe.com",
+     "country": "Israel",
+     "status": "Active"
+   },
+   {
+     "customerName": "Marvin McKinney",
+     "company": "Tesla",
+     "phoneNumber": "(252) 555-0126",
+     "email": "marvin@tesla.com",
+     "country": "Iran",
+     "status": "Active"
+   },
+   {
+     "customerName": "Jerome Bell",
+     "company": "Google",
+     "phoneNumber": "(629) 555-0129",
+     "email": "jerome@google.com",
+     "country": "Réunion",
+     "status": "Inactive"
+   },
+
+   {
+     "customerName": "Kathryn Murphy",
+     "company": "Microsoft",
+     "phoneNumber": "(406) 555-0120",
+     "email": "kathryn@microsoft.com",
+     "country": "Curaçao",
+     "status": "Active"
+   },
+   {
+     "customerName": "Jacob Jones",
+     "company": "Yahoo",
+     "phoneNumber": "(208) 555-0112",
+     "email": "jacob@yahoo.com",
+     "country": "Brazil",
+     "status": "Active"
+   },
+   {
+     "customerName": "Kristin Watson",
+     "company": "Facebook",
+     "phoneNumber": "(704) 555-0127",
+     "email": "kristin@facebook.com",
+     "country": "Åland Islands",
+     "status": "Inactive"
+   },
+   {
+     "customerName": "Ava Nguyen",
+     "company": "Nguyen Corp.",
+     "phoneNumber": "+1122334455",
+     "email": "ava.nguyen@example.com",
+     "country": "Vietnam",
+     "status": "Active"
+   },
+   {
+     "customerName": "Noah Kim",
+     "company": "Kim Solutions",
+     "phoneNumber": "+1122334455",
+     "email": "noah.kim@example.com",
+     "country": "South Korea",
+     "status": "Active"
+   },
+   {
+     "customerName": "Emma Hernandez",
+     "company": "Hernandez Group",
+     "phoneNumber": "+1122334455",
+     "email": "emma.hernandez@example.com",
+     "country": "Brazil",
+     "status": "Active"
+   },
+   {
+     "customerName": "William Rossi",
+     "company": "Rossi & Co.",
+     "phoneNumber": "+1122334455",
+     "email": "william.rossi@example.com",
+     "country": "Italy",
+     "status": "Inactive"
+   },
+   {
+     "customerName": "Isabella Fujimoto",
+     "company": "Fujimoto Enterprises",
+     "phoneNumber": "+1122334455",
+     "email": "isabella.fujimoto@example.com",
+     "country": "Japan",
+     "status": "Active"
+   },
+   {
+     "customerName": "Michael O'Connor",
+     "company": "O'Connor Innovations",
+     "phoneNumber": "+1122334455",
+     "email": "michael.oconnor@example.com",
+     "country": "Ireland",
+     "status": "Active"
+   },
+   {
+     "customerName": "Sophie Gomez",
+     "company": "Gomez Group",
+     "phoneNumber": "+1122334455",
+     "email": "sophie.gomez@example.com",
+     "country": "Argentina",
+     "status": "Active"
+   },
+   {
+     "customerName": "Alexander Petrov",
+     "company": "Petrov Industries",
+     "phoneNumber": "+1122334455",
+     "email": "alexander.petrov@example.com",
+     "country": "Russia",
+     "status": "Active"
+   },
+   {
+     "customerName": "Charlotte Lee",
+     "company": "Lee Enterprises",
+     "phoneNumber": "+1122334455",
+     "email": "charlotte.lee@example.com",
+     "country": "Singapore",
+     "status": "Active"
+   },
+   {
+     "customerName": "Lucas Silva",
+     "company": "Silva Corp.",
+     "phoneNumber": "+1122334455",
+     "email": "lucas.silva@example.com",
+     "country": "Portugal",
+     "status": "Inactive"
+   },
+   {
+     "customerName": "Amelia Kowalski",
+     "company": "Kowalski Solutions",
+     "phoneNumber": "+1122334455",
+     "email": "amelia.kowalski@example.com",
+     "country": "Poland",
+     "status": "Active"
+   },
+   {
+     "customerName": "Benjamin Chang",
+     "company": "Chang Group",
+     "phoneNumber": "+1122334455",
+     "email": "benjamin.chang@example.com",
+     "country": "Taiwan",
+     "status": "Active"
+   }
+ ]
