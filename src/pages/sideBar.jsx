@@ -7,10 +7,8 @@ const {
 } = require('components/Sidebar/NavSideBar/navSidebar');
 
 const Container = styled.div`
-  top: 0;
-  left: 0;
+  position: relative;
   width: 306px;
-  height: 100%;
   background-color: #fff;
   padding-left: 28px;
   padding-right: 28px;
@@ -18,7 +16,9 @@ const Container = styled.div`
 `;
 
 const Wrapp = styled.div`
-  margin-top: 150px;
+  width: 250px;
+  position: absolute;
+  bottom: 0;
 `;
 
 const SideBar = () => {

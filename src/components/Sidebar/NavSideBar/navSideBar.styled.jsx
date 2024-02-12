@@ -10,6 +10,11 @@ export const WrappList = styled.ul`
 export const StyledList = styled.li`
   display: flex;
   position: relative;
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 `;
 
 export const StyledTitle = styled.h2`
