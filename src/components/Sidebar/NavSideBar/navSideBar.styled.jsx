@@ -7,15 +7,7 @@ export const WrappList = styled.ul`
   margin: 65px 16px 0 19px;
 `;
 
-export const StyledList = styled.li`
-  display: flex;
-  position: relative;
-  margin-bottom: 40px;
 
-  &:last-child {
-    margin-bottom: 0;
-  }
-`;
 
 export const StyledTitle = styled.h2`
   font-family: 'Poppins';
@@ -24,10 +16,6 @@ export const StyledTitle = styled.h2`
   margin-left: 14px;
 `;
 
-export const StyledSpan = styled.span`
-  display: flex;
-  right: 0;
-`;
 
 export const StyledNavLink = styled(NavLink)`
   display: flex;
@@ -37,5 +25,23 @@ export const StyledNavLink = styled(NavLink)`
 export const StyledLinkSvg = styled(NavLink)`
   position: absolute;
   right: 0;
+  margin-right: 10px;
 `;
 
+export const StyledList = styled.li`
+  display: flex;
+  align-items: center;
+  height: 46px;
+  position: relative;
+  border-radius: 8px;
+  padding-left: 10px;
+
+  &:hover,
+  &:focus {
+    background-color: #5932ea;
+    ${StyledTitle}, ${StyledNavLink}, ${StyledLinkSvg} {
+      color: #fff;
+      // stroke: #fff;
+    }
+  }
+`;

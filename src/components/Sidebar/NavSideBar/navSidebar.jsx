@@ -29,7 +29,7 @@ const NavSideBar = () => {
         </StyledList>
         <StyledList>
           <StyledNavLink to="/customers">
-            <CustomersSvg />
+            <CustomersSvg fill="#9197B3" />
             <StyledTitle>Customers</StyledTitle>
           </StyledNavLink>
           <StyledLinkSvg>

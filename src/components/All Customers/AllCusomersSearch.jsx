@@ -1,11 +1,11 @@
-import { SearchSvg } from "image/search";
-import { HeaderWrapp, FlexContainer} from "components/Header/header.styled";
-import styled from "styled-components";
+import { SearchSvg } from 'image/search';
+import { HeaderWrapp, FlexContainer } from 'components/Header/header.styled';
+import styled from 'styled-components';
 
 const ContainerWrapp = styled.div`
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 const Title = styled.h2`
@@ -22,9 +22,8 @@ const TitleDesc = styled.p`
 `;
 
 const StyledInputSelector = styled.div`
-     display: flex;
+  display: flex;
 `;
-
 
 const HeaderInput = styled.input`
   width: 216px;
@@ -36,7 +35,6 @@ const HeaderInput = styled.input`
   color: #b5b7c0;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  
 `;
 
 const StyledSelector = styled.select`
@@ -52,31 +50,32 @@ const StyledSelector = styled.select`
   margin-left: 16px;
 `;
 const AllCustomersSearch = () => {
-    return (
-      <ContainerWrapp>
-        <div>
-          <Title>All Customers</Title>
-          <TitleDesc>Active Members</TitleDesc>
-        </div>
 
-        <StyledInputSelector>
-          <FlexContainer>
-            <HeaderInput type="text" placeholder="Search" />
+  return (
+    <ContainerWrapp>
+      <div>
+        <Title>All Customers</Title>
+        <TitleDesc>Active Members</TitleDesc>
+      </div>
 
-            <HeaderWrapp>
-              <SearchSvg />
-            </HeaderWrapp>
-          </FlexContainer>
-          <StyledSelector
-            name="customers"
-            id="customers"
-            placeholder="Short by :"
-          >
-            <option value="Newest">Newest</option>
-          </StyledSelector>
-        </StyledInputSelector>
-      </ContainerWrapp>
-    );
-}
+      <StyledInputSelector>
+        <FlexContainer>
+          <HeaderInput type="text" placeholder="Search" />
 
-export default AllCustomersSearch
+          <HeaderWrapp>
+            <SearchSvg />
+          </HeaderWrapp>
+        </FlexContainer>
+        <StyledSelector
+          name="customers"
+          id="customers"
+        >
+          <option value="Newest">Newest</option>
+          <option value="Oldest">Oldest</option>
+        </StyledSelector>
+      </StyledInputSelector>
+    </ContainerWrapp>
+  );
+};
+
+export default AllCustomersSearch;
