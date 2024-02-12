@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import customers from '../../customer.json'
 import styled from 'styled-components';
+import { ButtonActive } from 'components/Button/active';
+import { ButtonInactive } from 'components/Button/inactive';
 const Table = styled.table`
   border-collapse: collapse;
   width: 100%;
@@ -12,7 +14,7 @@ const Th = styled.th`
   font-size: 14px;
   color: #b5b7c0;
   border-bottom: 1px solid #ddd;
-  padding: 8px;
+  padding: 0 0 14px 0;
   text-align: left;
 `;
 
@@ -21,7 +23,7 @@ const Td = styled.td`
   font-size: 14px;
   border: none;
   border-top: 1px solid #ddd; /* Добавляем только верхнюю горизонтальную границу */
-  padding: 20px;
+  padding: 24px 0 24px 0;
   color: #292d32;
 `;
 
@@ -82,6 +84,16 @@ const AllCustomersList = () => {
     setCurrentPage(pageNumbers.length);
   };
 
+  const renderButton = (status) => {
+    if (status === 'Active') {
+      return <ButtonActive/>
+    } else if(status === 'Inactive'){
+      return <ButtonInactive/>
+    } else {
+      return null;
+    }
+  }
+
   return (
     <>
       <Table>
@@ -103,7 +115,7 @@ const AllCustomersList = () => {
               <Td>{customer.phoneNumber}</Td>
               <Td>{customer.email}</Td>
               <Td>{customer.country}</Td>
-              <Td>{customer.status}</Td>
+              <Td>{renderButton(customer.status)}</Td>
             </tr>
           ))}
         </tbody>
