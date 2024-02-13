@@ -14,7 +14,7 @@ const NavSideBar = () => {
       <WrappList>
         <StyledList>
           <StyledNavLink to="/">
-            <DashboardSvg />
+            <DashboardSvg  />
             <StyledTitle>Dashboard</StyledTitle>
           </StyledNavLink>
         </StyledList>

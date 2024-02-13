@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FlexContainer = styled.div`
   display: flex;
@@ -13,7 +13,6 @@ export const FlexContainer = styled.div`
 export const FlexList = styled.ul`
   display: flex;
   justify-content: center;
-  
 `;
 
 export const List = styled.li`
@@ -57,16 +56,17 @@ export const Desc = styled.p`
   margin-bottom: 6px;
 `;
 
-export const StyledImg = styled.img`
+export const StyledImg = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #d3ffe7;
   border-radius: 50%;
   padding: 20px;
   margin-right: 20px;
 `;
 
-export const StyledContentContainer = styled.div`
-
-`;
+export const StyledContentContainer = styled.div``;
 
 export const StyledDesc = styled.p`
   display: flex;

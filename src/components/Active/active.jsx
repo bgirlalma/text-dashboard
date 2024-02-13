@@ -1,7 +1,4 @@
 import { ArrowSvg } from 'image/green-arrow';
-import TotalCustomers from '../../image/profile-2user.png';
-import ProfileTick from '../../image/profile-tick.png';
-import MonitorSvg from '../../image/monitor.png';
 import ElipseOne from '../../image/Ellipse 58.jpg';
 import ElipseTwo from '../../image/Ellipse 59.jpg';
 import ElipseTree from '../../image/Ellipse 60.jpg';
@@ -20,17 +17,17 @@ import {
   StyledImg,
   StyledIcon,
 } from './active.styled';
+import { MonitorSvg } from 'image/monitor';
+import { ProfileTwoSvg } from 'image/profile-2user';
+import { ProfileTickSvg } from 'image/profile-tick';
 const ActiveComponent = () => {
   return (
     <FlexContainer>
       <FlexList>
         <List>
-          <StyledImg
-            src={TotalCustomers}
-            alt="Total Customers"
-            width="84"
-            height="84"
-          />
+          <StyledImg>
+            <ProfileTwoSvg />
+          </StyledImg>
           <StyledContentContainer>
             <Title>Total Customers</Title>
             <Desc>5,423</Desc>
@@ -42,12 +39,9 @@ const ActiveComponent = () => {
           </StyledContentContainer>
         </List>
         <List>
-          <StyledImg
-            src={ProfileTick}
-            alt="Profile Tick"
-            width="84"
-            height="84"
-          />
+          <StyledImg>
+            <ProfileTickSvg />
+          </StyledImg>
           <StyledContentContainer>
             <Title>Members</Title>
             <Desc>1,893</Desc>
@@ -58,7 +52,9 @@ const ActiveComponent = () => {
           </StyledContentContainer>
         </List>
         <List>
-          <StyledImg src={MonitorSvg} alt="Active" width="84" height="84" />
+          <StyledImg>
+            <MonitorSvg />
+          </StyledImg>
           <StyledContentContainer>
             <Title>Active Now</Title>
             <Desc>189</Desc>

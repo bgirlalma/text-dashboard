@@ -13,6 +13,7 @@ const Container = styled.div`
   padding-left: 28px;
   padding-right: 28px;
   padding-top: 36px;
+ 
 `;
 
 const Wrapp = styled.div`
@@ -24,12 +25,13 @@ const Wrapp = styled.div`
 const SideBar = () => {
   return (
     <Container>
-      <Logo />
-      <NavSideBar />
-      <Wrapp>
-        <SideBarModal />
-        <ProjectManager />
-      </Wrapp>
+        <Logo />
+        <NavSideBar />
+        <Wrapp>
+          <SideBarModal />
+          <ProjectManager />
+        </Wrapp>
+    
     </Container>
   );
 };

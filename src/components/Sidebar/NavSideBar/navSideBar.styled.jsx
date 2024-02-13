@@ -37,11 +37,13 @@ export const StyledList = styled.li`
   padding-left: 10px;
 
   &:hover,
-  &:focus {
+  &:active {
     background-color: #5932ea;
-    ${StyledTitle}, ${StyledNavLink}, ${StyledLinkSvg} {
+    ${StyledTitle} {
       color: #fff;
-      // stroke: #fff;
+    }
+    ${StyledNavLink}, ${StyledLinkSvg} {
+      fill: rgb(100, 100, 100);
     }
   }
 `;
